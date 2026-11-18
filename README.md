@@ -3,7 +3,7 @@
 Analysis code for:
 Zou S, et al. *Low-Carbohydrate and Low-Fat Dietary Patterns and Obesity-Related Cancer Risk and Survival: Prospective Cohort Studies.*.
 
-The code for the revised manuscript is in the folder [`revision_code_20261113`](revision_code_20261113). Each file is named after the main figure, Extended Data figure ("FigureS*") or Supplementary Table ("tableS*") that it produces.
+The code for the revised manuscript is in the folder [`revision`](revision). Each file is named after the main figure, Extended Data figure ("FigureS*") or Supplementary Table ("tableS*") that it produces.
 
 ## 1. System requirements
 
