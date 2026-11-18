@@ -41,10 +41,12 @@ Cohort-specific programs read the NHS, NHSII and HPFS questionnaire, diet and ou
 
 | Step | Files | Output |
 |---|---|---|
-| 1. Incidence analysis | `data.inc.sas` | Pooled incidence dataset (NHS, NHSII, HPFS) |
-| 2. Breast cancer survival analysis | `data_postdx_brc.sas` | Pooled breast cancer survival dataset (NHS, NHSII) |
-| 3. Colorectal cancer survival analysis | `data_postdx_crc.sas` | Pooled colorectal cancer survival dataset (NHS, NHSII, HPFS) |
-
+| 1. Incidence analysis, cohort-specific | `nhs.data.inc.sas`, `nhs2.data.inc.sas`, `hpfs.data.inc.sas` | Cohort-specific datasets for obesity-related cancer incidence |
+| 2. Incidence analysis, pooled | `data.inc.sas` | Pooled incidence dataset (NHS, NHSII, HPFS) |
+| 3. Breast cancer survival, cohort-specific | `nhs.data.brc_postdx.sas`, `nhs2.data.brc_postdx.sas` | Post-diagnosis datasets for breast cancer survivors |
+| 4. Breast cancer survival, pooled | `data_postdx_brc.sas` | Pooled breast cancer survival dataset (NHS, NHSII) |
+| 5. Colorectal cancer survival, cohort-specific | `nhs.data.crc_postdx.sas`, `nhs2.data.crc_postdx.sas`, `hpfs.data.crc_postdx.sas` | Post-diagnosis datasets for colorectal cancer survivors |
+| 6. Colorectal cancer survival, pooled | `data_postdx_crc.sas` | Pooled colorectal cancer survival dataset (NHS, NHSII, HPFS) |
 The analysis programs below use the pooled datasets.
 
 ### Main figures
