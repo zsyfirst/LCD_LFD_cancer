@@ -18,9 +18,9 @@ Date:  10/2026
 ******************************************************/
 
 /************************ Call in Cleaned Datasets*******************************************************/
-%include 'lowcarb_cancer/revision/hpfs.data.crc_postdx.sas';
-%include 'lowcarb_cancer/revision/nhs.data.crc_postdx.sas';
-%include 'lowcarb_cancer/revision/nhs2.data.crc_postdx.sas';
+%include 'hpfs.data.crc_postdx.sas';
+%include 'nhs.data.crc_postdx.sas';
+%include 'nhs2.data.crc_postdx.sas';
 
 
 *===================================*
